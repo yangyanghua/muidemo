@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+   <!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0;">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<meta name="format-detection" content="telephone=no,email=no"/>
+	<meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"/>
+	<meta name="browsermode" content="application">
+	<meta name="x5-page-mode" content="app">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="render" content="webkit">    
+    <title>溯源详情</title>
+    <script src="js/mui.min.js"></script>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/mui.previewimage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/product.css?v=1.8"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>	
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+		<div class="infoContent">			        	
+		<div id="slider" class="mui-slider" >
+			<div id="productImg" class="mui-slider-group">
+
+			</div>
+			<div id="proIndicator" class="mui-slider-indicator">
+
+			</div>
+			<div class="authentication"></div>
+		</div>
+		<div class="productName">
+			<h1 id="productsName"></h1>
+		</div>
+		<div class="infoItem basicInfo">
+		<h2 class="title">基本信息</h2>	
+		 <ul class="basicInfoList">
+		 	<li ><label>品牌：</label><p id="brand"></p></li>
+		 	<li ><label>原产地：</label><p id="sourceArea"></p></li>
+		 	<li><label>生产企业：</label><p id="productionEnt"></p></li>
+		 	<li><label>生产地址：</label><p id="entAddress"></p></li>
+		 </ul>		 
+		</div>
+		<div class="infoItem jyImages">
+		<h2 class="title" style="margin-bottom: 15px;">检验证书</h2>		
+		</div>		
+		<div class="infoItem yclInfo">
+		<h2 class="title" style="margin-bottom: 10px;">原材料信息</h2>	
+		<div class="yclContent">
+			
+			
+		</div>		
+		</div>	
+		<div class="infoItem gcImages">
+		<h2 class="title" style="margin-bottom: 10px;">工厂实拍</h2>	
+		<div id="slider1" class="mui-slider" >
+			<div id="slider1Group" class="mui-slider-group">
+			</div>
+		</div>
+		</div>
+		<div class="infoItem proInfo">
+		<h2 class="title" style="margin-bottom: 10px;">商品描述</h2>	
+		<div  class="proInfoHtml">
+			
+			
+		</div>
+		</div>		
+		<p class="bottomLine">这就是我的底线</p>		       
+		        </div>
+
+			</div>
+		</div>	
+ 	<div class="options" style="display: none;">
+		<div class="buyAndTop">
+				<button type="button" class="buyBtn mui-btn mui-btn-warning">
+
+					<a href="#picture" style="color: white;display: block;width: 100%;height: 100%;line-height: 22px;" >立即购买</a>
+					
+				</button>			
+		</div>	
+		<div id="picture" class="mui-popover mui-popover-action mui-popover-bottom">
+			<ul class="mui-table-view" id="buyBtns" >			
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="#picture" style="color: #333333;"><b>取消</b></a>
+				</li>
+			</ul>
+		</div>
+ 	</div>
+<div class="loading">
+	<img src="images/loading.gif"/>
+</div> 	
+
+<div class="noInfo">
+	<img src="images/wxgxx.png"/>
+</div>
+
+ <script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>	
+ <script src="js/mui.zoom.js" type="text/javascript" charset="utf-8"></script>
+ <script src="js/mui.previewimage.js" type="text/javascript" charset="utf-8"></script>
+ <script src="js/product.js?v=1.8" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
